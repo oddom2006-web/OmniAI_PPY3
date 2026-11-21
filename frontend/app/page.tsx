@@ -203,8 +203,8 @@ export default function Landing() {
                 <a key={l.href} href={l.href} className="hover:underline">{l.label}</a>
               ))}
               <Link href="/auth" className="hover:underline">{t("login")}</Link>
-              <Link href="/privacy" className="hover:underline">{t("privacy")}</Link>
-              <Link href="/terms" className="hover:underline">{t("terms")}</Link>
+              <Link href="/Privacy-policy" className="hover:underline">{t("privacy")}</Link>
+              <Link href="/Terms-of-use" className="hover:underline">{t("terms")}</Link>
             </nav>
             <p className="w-full text-slate-600 dark:text-slate-300 md:ml-auto md:w-auto">
               © {new Date().getFullYear()} OmniAI. {t("footerRights")}
